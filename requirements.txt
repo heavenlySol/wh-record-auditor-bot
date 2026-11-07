@@ -1,0 +1,22 @@
+numpy>=1.22.0
+opencv-python>=4.7.0
+pyzbar>=0.1.9
+pyserial>=3.5
+#ydlidar>=1.1.0 install it using the below commands
+"""
+sudo apt-get update
+sudo apt-get install cmake pkg-config swig python3-dev
+
+git clone https://github.com/YDLIDAR/YDLidar-SDK.git
+cd YDLidar-SDK
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+
+cd ../python
+python3 setup.py build
+sudo python3 setup.py install
+"""
+scipy>=1.9.0
